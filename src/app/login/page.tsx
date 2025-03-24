@@ -69,7 +69,7 @@ export default function LoginPage() {
                 <button
                     onClick={handleSubmit}
                     disabled={btnDisabled || loading}
-                    className={`mt-4 p-2 rounded text-black font-semibold ${
+                    className={`mt-4 p-2 rounded text-black font-semibold cursor-pointer ${
                         btnDisabled || loading
                             ? "bg-gray-600 cursor-not-allowed"
                             : "bg-amber-400 hover:bg-amber-500"

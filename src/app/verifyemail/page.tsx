@@ -16,7 +16,7 @@ export default function VerifyEmailPage() {
         setToken(urlToken);
     }, []);  //  Empty dependency array ensures it runs only once.
 
-    // 🚀 Verify Email Automatically when Token is Available
+    // Verify Email Automatically when Token is Available
     useEffect(() => {
         if (token) {
             verifyEmail();
